@@ -77,5 +77,14 @@ There are some English words which appear very frequently in all documents and s
 # NAIVE BAYES CLASSIFIER
 A Naive Bayes classifier is a probabilistic machine learning model that’s used for classification task. The crux of the classifier is based on the Bayes theorem.Bayes Theorem:
 For example, a fruit may be considered to be an apple if it is red, round, and about 3 inches in diameter. Even if these features depend on each other or upon the existence of the other features, all of these properties independently contribute to the probability that this fruit is an apple and that is why it is known as ‘Naive’.
+#### P(A/B) = P(B/A)P(A)/P(B)
+## Results and Roc Curve
+![Naive Bayes ROC](https://user-images.githubusercontent.com/69344247/89773053-d065f280-db20-11ea-85c8-e06f94173ef2.png)
+![Naive bayes](https://user-images.githubusercontent.com/69344247/89773056-d1971f80-db20-11ea-8f8c-01d95f771345.png)
+# RANDOM FOREST
+ - Random forest is a supervised learning algorithm which is used for both classification as well as regression. But however, it is mainly used for classification problems. As we know that a forest is made up of trees and more trees means more robust forest.
+ - Put simply: random forest builds multiple decision trees and merges them together to get a more accurate and stable prediction.
+ - It is an ensemble method which is better than a single decision tree because it reduces the over-fitting by averaging the result.
+
 
 
