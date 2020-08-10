@@ -33,5 +33,26 @@ Spam e-mails can be not only annoying but also dangerous to customers.Spam e-mai
 
 Spam e-mail messages are randomly sent to multiple addresses by all sort of groups , but mainly by lazy advertisers and criminals who wish to lead you to phishing sites. 
 # How Spam and Normal e-mails look like?
+### Spam Email
 ![spam](https://user-images.githubusercontent.com/69344247/89771780-81b75900-db1e-11ea-821e-0417de87b936.png)
-
+### Normal Email
+![ham](https://user-images.githubusercontent.com/69344247/89772081-073b0900-db1f-11ea-920d-6aed6553a5ee.png)
+# PROBLEM STATEMENT
+I have chosen this project because nowadays there are lots of people trying to fool you just by sending you fake e-mails like you have won a 1000 dollars, this much amount is deposited in your account once you open this link and then they will try to hack your information.
+ - Unwanted emails irritating internet consumers.
+ - Critical e-mail messages are missed and/or delayed.
+ - Identity Theft.
+ - Spam can crash mail servers and fill up hard drive.
+ - Billions of dollars lost worldwide.
+# OBJECTIVE
+The objective of identification of spam e-mails are :
+ - To give knowledge to the user about the fake e-mails and relevant e-mails.
+ - To classify that mail is spam or not.
+# LITERATURE REVIEW
+ - I referred  the paper S. Sharmin and Z. Zaman, "Spam Detection in Social Media Employing Machine Learning Tool for Text Mining," 2017 13th International Conference on Signal-Image Technology & Internet-Based Systems (SITIS), Jaipur, 2017, pp. 137-142.
+ - Spam prevention is often neglected , although some simple measures can dramatically reduce the amount of spam that reaches your mail box.
+ - Before they send you spam , spammers obviously first need to obtain your e-mail address , which they can do through different routes.
+# METHODOLOGY
+| METHODOLOGY  |DESCRIPTION |
+| ------------- | ------------- |
+| Collecting Dataset  | The test data is used to check the accuracy of the model built with the training data. The training data set contains  4137 emails . The test data contains 1035 emails .|
