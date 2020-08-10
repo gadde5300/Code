@@ -1,6 +1,5 @@
-# Code
-Email Spam Detection
-# Table of Contents
+# Spam Detection in Emails
+## Table of Contents
 | TOPICS  | |
 | ------------- | ------------- |
 | INTRODUCTION  | 
