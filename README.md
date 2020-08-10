@@ -33,4 +33,5 @@ Spam e-mails can be not only annoying but also dangerous to customers.Spam e-mai
 
 Spam e-mail messages are randomly sent to multiple addresses by all sort of groups , but mainly by lazy advertisers and criminals who wish to lead you to phishing sites. 
 # How Spam and Normal e-mails look like?
+![spam](https://user-images.githubusercontent.com/69344247/89771780-81b75900-db1e-11ea-821e-0417de87b936.png)
 
