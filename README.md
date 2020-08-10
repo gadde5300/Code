@@ -21,7 +21,7 @@ techniques to the email spam filtering process of the leading internet service p
 Gmail, Yahoo and Outlook emails spam filters. Discussion on general email spam filtering
 process, and the various efforts by different researchers in combating spam through the use
 machine learning techniques was done. Our review compares the strengths and drawbacks of
-existing machine learning approaches and the open research problems in spam filtering. We
+existing machine learning approaches and the open research problems in spam filtering. I
 recommended deep leaning and deep adversarial learning as the future techniques that can
 effectively handle the menace of spam emails.
 # INTRODUCTION
@@ -57,15 +57,15 @@ The objective of identification of spam e-mails are :
 | ------------- | ------------- |
 | Collecting Dataset  | The test data is used to check the accuracy of the model built with the training data. The training data set contains  4137 emails . The test data contains 1035 emails .|
 | Data Preprocessing | For achieving better results from the applied model in Machine Learning projects the format of the data has to be in a proper manner. STOP WORDS ,CREATING WORD DICTIONARY |
-| Feature Selection | Once the dictionary is ready, we can extract word count vector (our feature here) of 3000 dimensions for each email of training set. Each word count vector contains the frequency of 3000 words in the training file. |
+| Feature Selection | Once the dictionary is ready, I can extract word count vector (our feature here) of 3000 dimensions for each email of training set. Each word count vector contains the frequency of 3000 words in the training file. |
 | Model Construction | Naive Bayes ,Random Forest , SVM |
 # STEP BY STEP PROCESS
 ## DATA PREPROCESSING
-The emails in the learning data are in plain text format. We need to convert the plain text into features that can represent the emails. Using these features we can then use a learning algorithm on the emails. A number of pre-processing steps are first performed like normalization , binary data.. We convert the plain text files to files with one word per line. In this project, we look at emails just as a collection of words. So, to make it easier we convert each file into a list of words.
+The emails in the learning data are in plain text format. I need to convert the plain text into features that can represent the emails. Using these features we can then use a learning algorithm on the emails. A number of pre-processing steps are first performed like normalization , binary data..  convert the plain text files to files with one word per line. In this project, I look at emails just as a collection of words. So, to make it easier I convert each file into a list of words.
 ### Why is Data Preprocessing important?
  - For achieving better results from the applied model in Machine Learning projects the format of the data has to be in a proper manner. Some specified Machine Learning model needs information in a specified format, for example, Random Forest algorithm does not support null values, therefore to execute random forest algorithm null values have to be managed from the original raw dataset.
 # STOP WORDS
-There are some English words which appear very frequently in all documents and so have no worth in representing the documents. These are called STOP WORDS and there is no harm in deleting them. Example: the, a, for etc. There are also some domain specific (in this case email) stop words such as mon, tue, email, sender, from etc. So, we delete these words from all the files.
+There are some English words which appear very frequently in all documents and so have no worth in representing the documents. These are called STOP WORDS and there is no harm in deleting them. Example: the, a, for etc. There are also some domain specific (in this case email) stop words such as mon, tue, email, sender, from etc. So, delete these words from all the files.
 # CREATING WORD DICTIONARY
  - 1.  It can be seen that the first line of the mail is subject and the 3rd line contains the body of the email. We will only perform text analytics on the content to detect the spam mails. As a first step, we need to create a dictionary of words and their frequency. For this task, training set of 4137 mails is utilized. 
  - 2.  Once the dictionary is created we can add just a few lines of code to the above function to remove non-words. I have also removed absurd single characters in the dictionary which are irrelevant here by inserting the code in the function def make_Dictionary(train_dir).
@@ -93,7 +93,11 @@ For example, a fruit may be considered to be an apple if it is red, round, and a
  - An SVM model is basically a representation of different classes in a hyperplane in multidimensional space. The hyperplane will be generated in an iterative manner by SVM so that the error can be minimized. The goal of SVM is to divide the datasets into classes to find a maximum marginal hyperplane (MMH).
  - SVM kernel converts non-separable problems into separable problems by adding more dimensions to it. It makes SVM more powerful, flexible and accurate.(Linear,gaussian,polynomial,rbf).
  ## Results and Roc Curve
- 
+![SVM n](https://user-images.githubusercontent.com/69344247/89773410-787bbb80-db21-11ea-9a08-e4b804a4c131.png)
+![SVM roc](https://user-images.githubusercontent.com/69344247/89773413-79ace880-db21-11ea-87a4-1cd257dfdfb8.png)
+
+# CONCLUSION 
+I was able to classify the e-mails are spam or non-spam .With high number of e-mails lots if people using the system it will difficult to handle all possible mails as our project deals with only limited amount of corpus.
 
 
 
