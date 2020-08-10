@@ -85,6 +85,16 @@ For example, a fruit may be considered to be an apple if it is red, round, and a
  - Random forest is a supervised learning algorithm which is used for both classification as well as regression. But however, it is mainly used for classification problems. As we know that a forest is made up of trees and more trees means more robust forest.
  - Put simply: random forest builds multiple decision trees and merges them together to get a more accurate and stable prediction.
  - It is an ensemble method which is better than a single decision tree because it reduces the over-fitting by averaging the result.
+ ## Results and Roc Curve
+![Random Forest ROC](https://user-images.githubusercontent.com/69344247/89773229-25096d80-db21-11ea-875d-bf7b40f05021.png)
+![Random Forest](https://user-images.githubusercontent.com/69344247/89773234-26d33100-db21-11ea-9f9b-a49ccfa79bf4.png)
+# SUPPORT VECTOR MACHINE
+ - Support vector machines (SVMs) are powerful yet flexible supervised machine learning algorithms which are used both for classification and regression. But generally, they are used in classification problems.
+ - An SVM model is basically a representation of different classes in a hyperplane in multidimensional space. The hyperplane will be generated in an iterative manner by SVM so that the error can be minimized. The goal of SVM is to divide the datasets into classes to find a maximum marginal hyperplane (MMH).
+ - SVM kernel converts non-separable problems into separable problems by adding more dimensions to it. It makes SVM more powerful, flexible and accurate.(Linear,gaussian,polynomial,rbf).
+ ## Results and Roc Curve
+ 
+
 
 
 
