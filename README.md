@@ -102,7 +102,8 @@ For example, a fruit may be considered to be an apple if it is red, round, and a
 ![SVM roc](https://user-images.githubusercontent.com/69344247/89773413-79ace880-db21-11ea-87a4-1cd257dfdfb8.png)
 
 # CONCLUSION 
-I was able to classify the e-mails are spam or non-spam .With high number of e-mails lots if people using the system it will difficult to handle all possible mails as our project deals with only limited amount of corpus.
+ - I was able to classify the e-mails are spam or non-spam .With high number of e-mails lots if people using the system it will difficult to handle all possible mails as our project deals with only limited amount of corpus.
+ - I can now take raw input from the user and classify it as spam or ham.
 
 
 
