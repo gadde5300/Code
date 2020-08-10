@@ -60,6 +60,10 @@ The objective of identification of spam e-mails are :
 | Feature Selection | Once the dictionary is ready, I can extract word count vector (our feature here) of 3000 dimensions for each email of training set. Each word count vector contains the frequency of 3000 words in the training file. |
 | Model Construction | Naive Bayes ,Random Forest , SVM |
 # Bag Of Words
+#### Ham
+![ham wordcloud](https://user-images.githubusercontent.com/69344247/89773689-09eb2d80-db22-11ea-81b0-3deb4eae08c0.png)
+#### Spam
+![spam word cloud](https://user-images.githubusercontent.com/69344247/89773691-0bb4f100-db22-11ea-9d57-13b6ffcc45b0.png)
 
 # STEP BY STEP PROCESS
 ## DATA PREPROCESSING
