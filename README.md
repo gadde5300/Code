@@ -59,6 +59,8 @@ The objective of identification of spam e-mails are :
 | Data Preprocessing | For achieving better results from the applied model in Machine Learning projects the format of the data has to be in a proper manner. STOP WORDS ,CREATING WORD DICTIONARY |
 | Feature Selection | Once the dictionary is ready, I can extract word count vector (our feature here) of 3000 dimensions for each email of training set. Each word count vector contains the frequency of 3000 words in the training file. |
 | Model Construction | Naive Bayes ,Random Forest , SVM |
+# Bag Of Words
+
 # STEP BY STEP PROCESS
 ## DATA PREPROCESSING
 The emails in the learning data are in plain text format. I need to convert the plain text into features that can represent the emails. Using these features we can then use a learning algorithm on the emails. A number of pre-processing steps are first performed like normalization , binary data..  convert the plain text files to files with one word per line. In this project, I look at emails just as a collection of words. So, to make it easier I convert each file into a list of words.
